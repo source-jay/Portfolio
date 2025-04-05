@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jay Nimase | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <button class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
+  <nav id="navbar">
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact Me</a>
+  </nav>
+
+  <section id="about" class="section-box about">
+    <h2>About Me 👨🏻‍🎓</h2>
+    <img src="image1.jpeg" alt="Profile Photo">
+    <p class="tagline">
+        Web-Dev Enthusiast 👩🏻‍💻 | Quick Learner 📈 | Fast Mover 🏃🏻
+    </p>
+    <p>
+      I am Jay Nimase, a very enthusiast Engineering Student, I am currently pursuing my
+      Btech in Software Engineering from MIT Academy of Engineering. Hi! I'm a passionate engineering student
+      with a keen interest in web development. I love exploring new technologies, building interactive
+      websites, and constantly improving my coding skills.
+      <br>
+    </p>
+  </section>
+
+  <section id="skills" class="section-box skills">
+    <h2>Skills 🤖</h2>
+    <div class="skills-container">
+      <div class="skill-box">
+        <h3 style="text-align: center;">Programming 💻</h3>
+        <ul class="skill-list">
+          <li>Python</li>
+          <li>C</li>
+          <li>SQL</li>
+          <li>HTML/CSS</li>
+        </ul>
+      </div>
+      <div class="skill-box">
+        <h3 style="text-align: center;">Web-Dev 🌐</h3>
+        <ul class="skill-list">
+          <li>HTML/CSS</li>
+          <li>Tailwind CSS</li>
+          <li>React.js</li>
+        </ul>
+      </div>
+      <div class="skill-box">
+        <h3 style="text-align: center;">Data Science 📊</h3>
+        <ul class="skill-list">
+          <li>Data Analysis</li>
+          <li>Data Visualization</li>
+          <li>Pandas/Numpy</li>
+          <li>Tableau</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="hobbies" class="section-box hobbies">
+    <h2>Hobbies 🛠️</h2>
+    <div class="hobby-box">
+      <h3>🏐 Volleyball </h3>
+      <p>I like to play volleyball with my friends on the weekends. I have also played in local
+        tournaments and have also won some of them.</p>
+    </div>
+    <div class="hobby-box">
+      <h3>🎮 Videogames</h3>
+      <p>I love playing new video games and my favourite videogame is Farcry-3.</p>
+    </div>
+    <div class="hobby-box">
+      <h3>🎸 Music</h3>
+      <p>I enjoy music listening to music, and music a very important part of my life.</p>
+    </div>
+    <div class="hobby-box">
+      <h3>♟️ Chess</h3>
+      <p>Playing chess helps me relax and also increases my problem solving capabilities.</p>
+    </div>
+  </section>
+
+  <section id="education" class="section-box education">
+    <h2>Education 🎓</h2>
+    <br>
+    <p>
+      <strong>MIT Academy of Engineering 💻</strong><br />
+      BTech in Software Engineering<br />
+      Current SGPA: 8.5 | Expected Graduation: 2028
+    </p>
+    <br>
+    <p>
+      <strong>Higher Secondary Education 📚</strong><br />
+      PCM (Physics, Chemistry, Mathematics)<br />
+      MHT CET Score: 90.2%ile | Year of Completion: 2024
+    </p>
+
+  </section>
+
+  <section id="certifications" class="section-box certifications">
+    <h2>Certifications 📝</h2>
+    <div class="certification-box">
+      <h3><i class="fas fa-certificate"></i> Python Essentials</h3>
+      <p>Issued by Cisco NetAcad - Completed in 2025</p>
+    </div>
+    <div class="certification-box">
+      <h3><i class="fas fa-certificate"></i> NASSCOM Special Skills</h3>
+      <p>Issued by FutureSkills - Completed in 2025</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section-box contact">
+    <h2>Contact Me ☎️</h2>
+    <p>Email: nimasejay@gmail.com</p>
+    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/jay-nimase-214027300/" style="color: #bbb;">LinkedIn</a></p>
+    <p><i class="fab fa-github"></i> <a href="https://github.com/source-jay" style="color: #bbb;">GitHub</a></p>
+    <p><i class="fab fa-instagram"></i> <a href="https://instagram.com/jay.4sure" style="color: #bbb;">Instagram</a></p>
+
+  </section>
+
+  <footer>
+    &copy; 2025 My Portfolio. All rights reserved.
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('navbar');
+      nav.classList.toggle('show');
+    }
+  </script>
+</body>
+
+</html>
